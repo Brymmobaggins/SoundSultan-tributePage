@@ -41,7 +41,7 @@ main {
   width: 4rem;
   height: 4rem;
   position: absolute;
-  top: 2.5rem;
+  top: 1.2rem;
   right: 2.5rem;
   display: flex;
   cursor: pointer;
@@ -50,7 +50,7 @@ main {
 }
 .toggle-btn i {
   margin: auto;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: white;
 }
 .title {
@@ -111,8 +111,20 @@ figcaption {
 
 @media screen and (max-width: 650px) {
   .tributeheader {
-    margin: 15px;
+    margin-top: 85px;
+    height: 15px;
   }
+  .toggle-btn i {
+    margin: auto;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .toggle-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+  }
+
   main {
     margin: 10px;
     height: 100%;
