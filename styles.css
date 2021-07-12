@@ -92,6 +92,7 @@ b {
   color: #66899c;
   font-size: bold;
 }
+
 img {
   height: 85%;
   width: 100%;
@@ -122,5 +123,8 @@ figcaption {
   }
   .row {
     grid-template-columns: 1fr;
+  }
+  .figcaption {
+    font-size: 15px;
   }
 }

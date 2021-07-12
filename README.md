@@ -2,4 +2,6 @@
 
 ![Project img](img/soundSultanTribteScreenshot.png)
 
-## [Live Demo](https://brymmobaggins.github.io/SoundSultan-tributePage/)
+## Link
+
+ [Live Demo](https://brymmobaggins.github.io/SoundSultan-tributePage/)
