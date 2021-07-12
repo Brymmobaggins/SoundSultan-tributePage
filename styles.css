@@ -103,7 +103,7 @@ figcaption {
   text-align: center;
   position: absolute;
   z-index: 2;
-  margin: 0 auto;
+  margin: 0 10px;
   font: 20px "cursive";
   font-style: italic;
   color: var(--title-color);
