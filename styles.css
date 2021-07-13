@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 :root {
+  /* color variables */
   --title-color: #66899c;
   --body-colour: #696969;
   --background-color: #2b2828;
@@ -58,13 +59,19 @@ main {
 }
 h3 {
   color: var(--title-color);
+  font-family: cursive;
+  font-weight: bold;
   transition: background-color 1s, color 1s;
   text-align: center;
-}
-h1,
-h3 {
-  text-align: center;
   letter-spacing: 1px;
+}
+h1 {
+  text-align: center;
+}
+span {
+  text-decoration: none;
+  font-size: 15px;
+  color: var(--foreground-color);
 }
 .container {
   width: 100%;
@@ -72,6 +79,7 @@ h3 {
   padding: 0 1.5rem;
   position: relative;
 }
+/* Two columns layout */
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -85,20 +93,20 @@ h3 {
 p {
   margin-top: 1.5rem;
   letter-spacing: 1px;
-  line-height: 30px;
+  line-height: 27px;
 }
+
 strong,
 b {
   color: #66899c;
   font-size: bold;
 }
-
 img {
   height: 85%;
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
-  box-shadow: -2px -8px 5px -1px rgba(0,0,0,0.65);
+  box-shadow: -2px -8px 5px -1px rgba(0, 0, 0, 0.65);
 }
 figcaption {
   text-align: center;
@@ -109,26 +117,25 @@ figcaption {
   font-style: italic;
   color: var(--title-color);
 }
-
+/* Responsive layout - When the screen is less than 650px wide, make the columns stack ontop of each other instead of next to each other */
 @media screen and (max-width: 650px) {
   .tributeheader {
     margin-top: 85px;
     height: 15px;
   }
-  .toggle-btn i {
-    margin: auto;
-    font-size: 1.2rem;
-    color: white;
+  main {
+    margin: 10px;
+    height: 100%;
   }
   .toggle-btn {
     position: absolute;
     top: 1rem;
     right: 1.5rem;
   }
-
-  main {
-    margin: 10px;
-    height: 100%;
+  .toggle-btn i {
+    margin: auto;
+    font-size: 1.2rem;
+    color: white;
   }
   h1,
   h3 {
@@ -138,6 +145,6 @@ figcaption {
     grid-template-columns: 1fr;
   }
   .figcaption {
-    font-size: 15px;
+    font-size: 1px;
   }
 }
