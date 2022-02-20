@@ -1,6 +1,6 @@
 # Preview
 
-![Project img](img/soundSultanTribteScreenshot.png)
+![alt](img/soundSultanTribteScreenshot.png)
 
 ## Link
 
